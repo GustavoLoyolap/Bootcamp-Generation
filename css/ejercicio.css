@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    
+}
+
+
+div{
+    background-image: url(/html1/html/gokuwallper.PNG);
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    display: flex;
+    align-items: center    
+          
+    
+}
+
+h1{
+    color: white;
+    font-size: 200px;
+    
+}
+
+h1:hover {
+    color: orange;
+}
+
+h1 {
+    transition: color 0.8s linear 0.2s;
+}
+
+article{
+    display: inline;
+    color: blueviolet;
+    position: absolute;
+    align-content: flex-end;
+    height: 500px;
+    width: 500px;
+
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+nav{
+    background-color: brown;
+    width: 1200px;
+    
+}
+
+li{
+    display: inline;
+    color: white;
+    width: 1200px;
+    height: 600px;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ac213f;
+    text-align: center;
+
+}
+
+#subtitle{
+    color: aquamarine;
+}
+
+.p-large{
+    font-size: xx-small;
+}
+
+
+.p-green{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: white;
+    background-color:pink;
+}
+
+.p-red{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: white;
+    background-color:green;
+}
+

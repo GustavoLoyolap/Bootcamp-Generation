@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!--action es la accion que se realizara
+        method hace referencia al metodo HTTP usado para enviar los datos.
+        Los datos GET es el metodo por defectO se ven los datos en URL.
+        method POST oculta datos en el navegador.
+    -->
+    <form>
+        <p>
+            <table>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="" required>
+        </p>
+        <p>
+            <label for="email">Correo electronico:</label>
+            <input type="email" name="email" id="" required>
+            
+        </p>
+        <p>
+            <label for="password">password:</label>
+            <input type="password" name="" id="" required>
+
+        </p>
+        <p>
+            <label for="number">Numeros:</label>
+            <input type="number" name="" id="">
+
+        </p>
+       <p>
+           <label for="datetime">Fecha:</label>
+           <input type="date" name="" id="">
+
+       </p>
+       <p>
+           <label for="text">Publicación:</label>
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+       </p>
+       <p>
+           <!--backend recibe el values de option no lo que escribimos al usuariio-->
+
+           <label for="color">color favorito</label>
+           <select name="" id="">
+               <option value="1">rojo</option>
+               <option value="2">verde</option>
+               <option value="3">azul</option>
+           </select>
+       </p>
+       <!--Cuando tienen igual name se vinculan automaticamente-->
+       <p>
+           <label for="edad">Selecciona tu edad:</label>
+           <br>
+           <label for="">18 a 22 años</label>
+           <input type="radio" name="edad" id="">
+           <br>
+           <label for="">22 a 35 años</label>
+           <input type="radio" name="edad" id="">
+           <br>
+           <label for="">35 o mas años</label>
+           <input type="radio" name="edad" id="">
+        </p>
+        
+        <!--dos formas de submit input y buttom-->
+        <p>
+            <table border="0.5">
+                <td>
+                <input type="submit" value="Guardar datos">
+            </td>
+            <td>
+                
+                <button type="submit">enviar</button>
+
+            </td>
+            <td>
+                <button type="reset">borrar</button>  
+
+            </td>
+            <td>
+                <button type="menu">menu</button>
+
+            </td>
+            </table>
+        </p>
+
+        
+    </form>
+
+    <hr>
+    
+    
+</body>
+</html>
