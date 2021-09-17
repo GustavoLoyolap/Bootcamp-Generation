@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    /*
+    background: linear-gradient(to left,orange, red,black)
+    */
+    background-image: url(https://pics.me.me/programador-programador-con-trabajo-sin-trabajo-cris-32643899.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+.title{
+    text-align: center;
+    color: royalblue;
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+.subtitle{
+    background-color:brown;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+#caja{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 0 auto;
+
+}
+
+#caja2{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}

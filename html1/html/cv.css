@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10PX;
+}
+
+p{
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
+h2{
+    color: red;
+    background-color: gray;
+}
+
+table{
+    background-color: whitesmoke;
+}
+
+b{
+    color: blue;
+    text-decoration: underline;
+}

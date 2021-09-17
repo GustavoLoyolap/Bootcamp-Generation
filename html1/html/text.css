@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+   
+h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 75%;
+    
+}
+
+#p{
+    text-align: center;
+}
+
+mark {
+    background-color: white;
+    color: green;
+    font-style: italic;
+  }

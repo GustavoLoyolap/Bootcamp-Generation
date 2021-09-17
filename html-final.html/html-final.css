@@ -1,0 +1,349 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+main{
+    flex-grow: 1;
+    
+
+}
+
+.titulares{
+    background-color: #222;
+    color: #eee;
+    padding: 1rem;
+
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    .menu ul{
+        display: flex;
+    }
+    .menu li{
+        padding: .5rem;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: collapse;
+        
+    }
+}
+      /*fuentes ejercicio*/  
+        
+    #title-wubba{
+        font-family: 'Bangers', cursive;
+        color: greenyellow;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    #font-wubba{
+        font-family: 'Allison', cursive;
+        font-size: 30px;
+
+    }
+    #font-contacto{
+        font-family: 'Cinzel', serif;
+
+    }
+#font-galeria{
+    font-family: 'Orbitron', sans-serif;
+
+}
+    #thero{
+        font-family: 'Press Start 2P', cursive;
+        
+    }
+#thero:hover{
+color: greenyellow;
+cursor:zoom-in;
+}
+
+.hero-image{
+    background-image: url(/pickle.PNG);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    color: white;
+
+}
+
+.hero-image div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.75);
+}
+
+.hero-image h1{
+    font-size: 5vw;
+}
+
+#galeria {
+    margin: 1rem auto;
+    width:100%;
+    max-width:960px;
+    column-count: 3;
+}
+
+#galeria:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.menu a:hover{
+color: red;
+}
+
+.menu a:active{
+color: yellow;
+}
+
+.menu a::after{
+    content: "|";
+}
+
+.btn{
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-style: none;
+    border-radius: 20px;
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+.hero-image{
+    transition: 1.5s ease;
+     
+     -webkit-transition: 1.5s ease; /* Chrome - Safari */
+     
+}
+.hero-image:active{
+    transform : scale(2);
+
+    -webkit-transform : scale(2); /* Chrome - Safari */
+    
+}
+
+
+.mono1{
+    padding-left: 48%;
+    color: blue;
+}
+
+.mono2{
+    padding-left: 49%;
+    color: red;
+}
+.mono3{
+    padding-left: 42%;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display:flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    border: solid 2px;
+    background-color: black;
+    position:absolute;
+    align-items: center;
+
+
+}
+
+nav{
+    color: aqua;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    color: brown;
+    height: 20px;
+    width: 100%;
+   justify-content: center;
+
+    margin: auto;
+    
+   
+
+}
+
+li{
+
+    color: aliceblue;
+    display: inline;  
+    position: static;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    margin-right: 5px;
+    text-indent: 10px;
+    text-align: center;
+
+
+    
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    width: 100PX;
+    height: 100PX;
+    position: absolute;
+    border-radius:50%;
+    border: solid 20px;
+    background-position: 50%;
+    background-size: 100%;
+    margin: 100px;
+
+  
+}
+*/
